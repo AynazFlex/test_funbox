@@ -165,17 +165,18 @@
 }
 
 .buy {
-    text-decoration-line: underline;
-    text-decoration-style: dashed;
+    padding-bottom: 0px;
     cursor: pointer;
 }
 
 .buyDefault {
     color: var(--colorDefault);
+    border-bottom: 1px dashed var(--colorDefault);
 }
 
 .buyDefaultHover {
     color: var(--colorDefaultHover);
+    border-bottom: 1px dashed var(--colorDefaultHover);
 }
 
 .disabled {
