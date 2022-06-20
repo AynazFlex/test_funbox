@@ -1,0 +1,184 @@
+:root {
+    --colorDefault: #1698D9;
+    --colorDefaultHover: #2EA8E6;
+    --colorSelectedDefault: #D91667;
+    --colorSelectedHover: #E52E7A;
+    --colorDisabled: #B3B3B3;
+}
+
+.item-container {
+    margin: 0 80px 0 0;
+}
+
+.item {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 320px;
+    height: 480px;
+    padding: 4px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.card {
+    background: linear-gradient(135deg, transparent 27.5px, #F2F2F2 0) top left;
+    height: 100%;
+    border-radius: 8.5px;
+}
+
+.card-content {
+    background-image: url('../asset/cat.png');
+    background-repeat: no-repeat;
+    background-position: -24px 208px;
+    height: 100%;
+    border-radius: 8.5px;
+}
+
+.wrapper {
+    padding: 17px 0 0 47px;
+    height: 100%;
+    border-radius: 8.5px;
+}
+
+.blur {
+    background: linear-gradient(135deg, transparent 27.5px, rgba(242, 242, 242, 0.5) 0) top left;
+}
+
+.itemDefaultHover,
+.itemSelectedHover {
+    cursor: pointer;
+}
+
+.itemDefault {
+    background: linear-gradient(135deg, transparent 29px, var(--colorDefault) 0) top left;
+}
+
+.itemDefaultHover {
+    background: linear-gradient(135deg, transparent 29px, var(--colorDefaultHover) 0) top left;
+}
+
+.itemSelectedDefault {
+    background: linear-gradient(135deg, transparent 29px, var(--colorSelectedDefault) 0) top left;
+}
+
+
+.itemDisabled {
+    background: linear-gradient(135deg, transparent 29px, var(--colorDisabled) 0) top left;
+}
+
+.itemSelectedHover {
+    background: linear-gradient(135deg, transparent 29px, var(--colorSelectedHover) 0) top left;
+}
+
+.item-container:last-child {
+    margin: 0;
+}
+
+.weight {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.weightDefault {
+    background: var(--colorDefault);
+}
+
+.weightDefaultHover {
+    background: var(--colorDefaultHover);
+}
+
+.weightSelectedDefault {
+    background: var(--colorSelectedDefault);
+}
+
+.weightSelectedHover {
+    background: var(--colorSelectedHover);
+}
+
+.weightDisabled {
+    background: var(--colorDisabled);
+}
+
+.kg {
+    font-size: 22px;
+    line-height: 5px;
+}
+
+.cardName {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.cardNameSelectedHover {
+    color: #E62E7A;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.undercardText {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.undercardTextdis {
+    color: #FFFF66;
+}
+
+.buy {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    cursor: pointer;
+}
+
+.buyDefault {
+    color: var(--colorDefault);
+}
+
+.buyDefaultHover {
+    color: var(--colorDefaultHover);
+}
+
+.disabled {
+    color: var(--colorDisabled);
+    opacity: 0.5;
+}
