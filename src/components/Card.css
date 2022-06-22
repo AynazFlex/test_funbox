@@ -15,7 +15,7 @@
     height: 480px;
     padding: 4px;
     border-radius: 12px;
-    margin-bottom: 14px;
+    margin: 0 auto 14px auto;
     position: relative;
 }
 
