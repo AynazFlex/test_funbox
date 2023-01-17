@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
 import style from "./App.module.css";
 import Card from "./components/Card";
-import { reducer, initialState, setSelect } from "./state";
+import { reducer, initialState, setSelect } from "./state/state";
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);

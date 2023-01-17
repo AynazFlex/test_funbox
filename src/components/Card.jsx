@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import "./Card.css";
 import cn from "classnames";
 
@@ -103,4 +103,4 @@ const Card = (props) => {
   );
 };
 
-export default React.memo(Card);
+export default memo(Card);
